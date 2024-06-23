@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./avatar.JPG"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Irina Shalgina</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+            
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is Irina Shalgina</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am a frontend developer based in St.Petersburg, Russia. 
+            My specialities are <strong>React JS</strong>, <strong>HTML</strong> and <strong> CSS</strong>.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">See my projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/irina-shalgina-76a853315/" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/iashaff" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://t.me/iashaff" target="_blank" class="home-hero__social-icon-link">
+            <img
+              src="./telegram.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Check out some of my work in the Projects section.
+                Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/irina-shalgina-76a853315/" target="_blank" class="about_contact_link">Linkedin</a>.
+                I'm open to Job opportunities where I can contribute, learn and grow. 
+                If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Responsive Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            All my projects include links to the code and live version. Click the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./quizzicalL.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Quiz App</h3>
+              <p class="projects__row-content-desc">
+                Quizzical is a simple quiz app that lets you select alternatives and then gives you a score. It's built with functional React components. 
+              </p>
+
+              <div class="projects-btn">
+              <a
+                href="https://iashaff.github.io/Quizzical/"
+                target="_blank"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Live link</a>
+                <div class="home-hero__social code-btn">
+                  <a href="https://github.com/iashaff/Quizzical" target="_blank" class="home-hero__social-icon-link">
+                    <img
+                      src="./github-ico.png"
+                      alt="icon"
+                      class="home-hero__social-icon"
+                    />
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./VanLife.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">VanLife</h3>
+              <p class="projects__row-content-desc">
+                VanLife is a multi-page application that uses React Router and has protected routes.
+              </p>
+
+              <div class="projects-btn">
+                <a
+                href="https://iashaff.github.io/VanLife/"
+                target="_blank"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Live link</a
+              >
+                  <div class="home-hero__social code-btn">
+                    <a href="https://github.com/iashaff/VanLife" target="_blank" class="home-hero__social-icon-link">
+                      <img
+                        src="./github-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./tenziesL.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Tenzies</h3>
+              <p class="projects__row-content-desc">
+                A simple game app featuring dice with numbers from 1 to 6, built using basic React hooks.
+              </p>
+
+              <div class="projects-btn">
+                <a
+                href="https://iashaff.github.io/Tenzies/"
+                target="_blank"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Live link</a
+              >
+                  <div class="home-hero__social code-btn">
+                    <a href="https://github.com/iashaff/Tenzies" target="_blank" class="home-hero__social-icon-link">
+                      <img
+                        src="./github-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./catMeme.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Cat Meme Picker</h3>
+              <p class="projects__row-content-desc">
+                An app that generates cat memes based on user input. Built with HTML, CSS, and vanilla JavaScript.
+              </p>
+
+              <div class="projects-btn">
+                <a
+                href="https://iashaff.github.io/Cat-Meme-Picker/"
+                target="_blank"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Live link</a
+              >
+                  <div class="home-hero__social code-btn">
+                    <a href="https://github.com/iashaff/Cat-Meme-Picker" target="_blank" class="home-hero__social-icon-link">
+                      <img
+                        src="./github-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./watchListLight.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Movie watchlist</h3>
+              <p class="projects__row-content-desc">
+                A simple app to save movies and TV shows for later viewing. The shows are fetched from the OMDb API.
+              </p>
+
+              <div class="projects-btn">
+                <a
+                href="https://iashaff.github.io/Movie-watchlist/"
+                target="_blank"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Live link</a
+              >
+                  <div class="home-hero__social code-btn">
+                    <a href="https://github.com/iashaff/Movie-watchlist" target="_blank" class="home-hero__social-icon-link">
+                      <img
+                        src="./github-ico.png"
+                        alt="icon"
+                        class="home-hero__social-icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Please reach out if you have any questions! Send me an email at <span>shalginai@gmail.com</span> or wtite me directly at <span><a href="https://t.me/iashaff" target="_blank">Telegram</a></span>
+          </span>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/irina-shalgina-76a853315/">
+                <img
+                  class="main-footer__icon"
+                  src="./linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/iashaff">
+                <img
+                  class="main-footer__icon"
+                  src="./github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://t.me/iashaff">
+                <img
+                  class="main-footer__icon"
+                  src="./telegram.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Irina Shalgina</h4>
+            <p class="main-footer__short-desc">
+              A result-oriented Frontend developer
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
